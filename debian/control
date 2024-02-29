@@ -7,6 +7,6 @@ Build-Depends: debhelper-compat (= 13)
 
 Package: gpd-pocket
 Architecture: all
-Depends: lmd-minimal
-Description: Minimal set of packages for lmd Linux
+Depends: firmware-intel-sound, lmd-minimal
+Description: Packages and configurations for the GPD Pocket
  Packages and configuration for a minimal lmd Linux installation
